@@ -1,0 +1,17 @@
+name: ForceDelay
+version: 1.0
+author: Wolinski Piotr
+main: com.gmail.wolinskip.forcedelay.ForceDelay
+permissions:
+ forcedelay.immunity:
+  description: Gives immunity to player
+  default: op
+ forcedelay.reload:
+  description: Allows player to reload config
+  default: op
+commands:
+ forcedelay:
+   aliases: fd
+   description: Reloads config file
+   permission: forcesleep.reload
+   usage: /forcedelay reload
